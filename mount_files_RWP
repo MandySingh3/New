@@ -1,0 +1,143 @@
+mkdir system/
+sudo mount -o rw system.img system/
+
+sudo mkdir system/vendor/
+sudo mount -o rw vendor.img system/vendor/
+
+sudo mkdir system/odm/
+sudo mount -o rw odm.img system/odm/
+
+sudo mkdir system/product/
+sudo mount -o rw product.img system/product/
+
+sudo mkdir system/system_ext/
+sudo mount -o rw system_ext.img system/system_ext/
+
+sudo mkdir system/abl/
+sudo mount -o rw abl.img system/abl/
+
+sudo mkdir system/aop/
+sudo mount -o rw aop.img system/aop/
+
+sudo mkdir system/aop_config/
+sudo mount -o rw aop_config.img system/aop_config/
+
+sudo mkdir system/bluetooth/
+sudo mount -o rw bluetooth.img system/bluetooth/
+
+sudo mkdir system/boot/
+sudo mount -o rw boot.img system/boot/
+
+sudo mkdir system/cpucp/
+sudo mount -o rw cpucp.img system/cpucp/
+
+sudo mkdir system/cpucp_dtb/
+sudo mount -o rw cpucp_dtb.img system/cpucp_dtb/
+
+sudo mkdir system/devcfg/
+sudo mount -o rw devcfg.img system/devcfg/
+
+sudo mkdir system/dsp/
+sudo mount -o rw dsp.img system/dsp/
+
+sudo mkdir system/dtbo/
+sudo mount -o rw dtbo.img system/dtbo/
+
+sudo mkdir system/engineering_cdt/
+sudo mount -o rw engineering_cdt.img system/engineering_cdt/
+
+sudo mkdir system/featenabler/
+sudo mount -o rw featenabler.img system/featenabler/
+
+sudo mkdir system/hyp/
+sudo mount -o rw hyp.img system/hyp/
+
+sudo mkdir system/imagefv/
+sudo mount -o rw imagefv.img system/imagefv/
+
+sudo mkdir system/init_boot/
+sudo mount -o rw init_boot.img system/init_boot/
+
+sudo mkdir system/keymaster/
+sudo mount -o rw keymaster.img system/keymaster/
+
+sudo mkdir system/modem/
+sudo mount -o rw modem.img system/modem/
+
+sudo mkdir system/my_bigball/
+sudo mount -o rw my_bigball.img system/my_bigball/
+
+sudo mkdir system/my_carrier/
+sudo mount -o rw my_carrier.img system/my_carrier/
+
+sudo mkdir system/my_engineering/
+sudo mount -o rw my_engineering.img system/my_engineering/
+
+sudo mkdir system/my_heytap/
+sudo mount -o rw my_heytap.img system/my_heytap/
+
+sudo mkdir system/my_manifest/
+sudo mount -o rw my_manifest.img system/my_manifest/
+
+sudo mkdir system/my_product/
+sudo mount -o rw my_product.img system/my_product/
+
+sudo mkdir system/my_region/
+sudo mount -o rw my_region.img system/my_region/
+
+sudo mkdir system/my_stock/
+sudo mount -o rw my_stock.img system/my_stock/
+
+sudo mkdir system/oplus_sec/
+sudo mount -o rw oplus_sec.img system/oplus_sec/
+
+sudo mkdir system/oplusstanv_bk/
+sudo mount -o rw oplusstanv_bk.img system/oplusstanv_bk/
+
+sudo mkdir system/qupfw/
+sudo mount -o rw qupfw.img system/qupfw/
+
+sudo mkdir system/recovery/
+sudo mount -o rw recovery.img system/recovery/
+
+sudo mkdir system/shrm/
+sudo mount -o rw shrm.img system/shrm/
+
+sudo mkdir system/splash/
+sudo mount -o rw splash.img system/splash/
+
+sudo mkdir system/system_dlkm/
+sudo mount -o rw system_dlkm.img system/system_dlkm/
+
+sudo mkdir system/tz/
+sudo mount -o rw tz.img system/tz/
+
+sudo mkdir system/uefi/
+sudo mount -o rw uefi.img system/uefi/
+
+sudo mkdir system/uefisecapp/
+sudo mount -o rw uefisecapp.img system/uefisecapp/
+
+sudo mkdir system/vbmeta/
+sudo mount -o rw vbmeta.img system/vbmeta/
+
+sudo mkdir system/vbmeta_system/
+sudo mount -o rw vbmeta_system.img system/vbmeta_system/
+
+sudo mkdir system/vbmeta_vendor/
+sudo mount -o rw vbmeta_vendor.img system/vbmeta_vendor/
+
+sudo mkdir system/vendor_boot/
+sudo mount -o rw vendor_boot.img system/vendor_boot/
+
+sudo mkdir system/vendordlkm/
+sudo mount -o rw vendordlkm.img system/vendordlkm/
+
+sudo mkdir system/xbl/
+sudo mount -o rw xbl.img system/xbl/
+
+sudo mkdir system/xbl_config/
+sudo mount -o rw xbl_config.img system/xbl_config/
+
+sudo mkdir system/xbl_ramdump/
+sudo mount -o rw xbl_ramdump.img system/xbl_ramdump/
